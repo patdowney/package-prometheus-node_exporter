@@ -178,7 +178,7 @@ package_release(){
 	  --before-install scripts/before-install.${pkg_type}.sh \
           --version "${package_version}" \
 	  --architecture ${package_arch} \
-	  --description "Hashicorp ${product}" \
+	  --description "Prometheus ${product}" \
 	  --maintainer "Pat Downey <pat.downey+package-${product}@gmail.com>" \
 	  --url "https://github.com/patdowney/package-${product}" \
 	  --deb-user ${product} \
